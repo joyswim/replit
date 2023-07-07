@@ -5,10 +5,15 @@ reducer의 형태: (accumulator, currentValue) => (반환값)
 */
 
 let data = [5, 2, 9, 8, 4];
+console.log(data);
 
 // 최소값(minValue) 구하기 예제
 let minValue = data.reduce((a, b) => Math.min(a, b));
 console.log(minValue);
+
+// 최대값(maxValue) 구하기 예제
+let maxValue = data.reduce((a, b) => Math.max(a, b));
+console.log(maxValue);
 
 // 원소의 합계(summary) 구하기 예제
 let summary = data.reduce((a, b) => a + b);

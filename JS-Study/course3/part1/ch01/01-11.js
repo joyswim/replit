@@ -9,3 +9,6 @@ console.log(arr1);
 // 길이가 5이고 모든 원소의 값이 0인 배열 초기화 방법2
 let arr3 = new Array(5).fill(0);
 console.log(arr3);
+
+let arr4 = new Array(5).fill('0');
+console.log(arr4);
