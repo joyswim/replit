@@ -1,3 +1,4 @@
+// 진행중
 // 평균 넘는 사람 비율
 let fs = require('fs');
 let input = fs.readFileSync('input.txt').toString().split('\n');
